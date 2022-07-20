@@ -1,0 +1,8 @@
+PROGRAM NUMBER: 06	
+AIM: Write a Shell program to count the number of files in a directory.
+
+PROGRAM
+
+echo "No. of files is $(find "$@" -type f | wc -l)"
+echo "No. of directories is $(find "$@" -type d | wc -l)"	
+

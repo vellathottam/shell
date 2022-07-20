@@ -1,0 +1,35 @@
+PROGRAM NUMBER: 08	
+AIM: Write a Shell program to show various system configurations such as currently logged users, operating system type, current shell, home directory, no. of logged in users.
+
+PROGRAM
+echo -n "Logged in users: " 
+who
+echo 
+
+echo -n "Loggin Names: " 
+users
+echo
+
+echo -n "Current Shell: "
+echo $SHELL
+echo
+
+echo -n "Home Directory: "
+echo $HOME
+echo
+
+echo-n "Operating System type: "
+uname -o
+echo $OSTYPE
+echo
+
+echo "Path Settings: "
+echo $PATH
+echo
+
+echo -n "Current working directory: "
+pwd
+echo
+
+echo -n "No.of logged in users: "
+users|wc -w

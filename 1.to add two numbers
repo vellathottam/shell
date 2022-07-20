@@ -1,0 +1,10 @@
+PROGRAM NUMBER: 01	
+AIM: Write a Shell program to add two numbers.
+
+PROGRAM
+
+echo "Enter two values space separated" 
+read a b
+add=$(( $a + $b ))
+echo "Addition of $a and $b is $add"
+

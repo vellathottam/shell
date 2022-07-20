@@ -1,0 +1,12 @@
+PROGRAM NUMBER: 11	
+
+AIM: Write a Shell program to find the substring of a string.
+
+PROGRAM
+LIST="some string with a substring you want to match"
+SOURCE="substring"
+if echo "$LIST" | grep -q "$SOURCE"; then
+  echo "matched";
+else
+  echo "no match";
+fi

@@ -1,0 +1,15 @@
+PROGRAM NUMBER: 05	
+AIM: Write a Shell program to check whether the given number is odd or even.
+
+PROGRAM
+
+echo "Enter the value: "
+read n
+
+if (( $n%2 != 0 ))
+then
+       echo "$n is odd "	
+else
+       echo "$n is even "
+fi
+

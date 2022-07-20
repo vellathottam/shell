@@ -1,0 +1,10 @@
+PROGRAM NUMBER: 09	 
+AIM: Write a Shell program to create a directory.
+
+PROGRAM
+
+echo -n "Enter directory name to be added:  "
+read d
+mkdir $d
+echo "After inserting new directory into current working directory "
+ls	
